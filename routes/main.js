@@ -6,7 +6,7 @@ router.get("/", (req, res) => {
     greeting: "Hello Welcome to my portfolio site!",
   };
 
-  res.render("landing");
+  res.render("landing", data);
 });
 
 module.exports = router;
