@@ -2,7 +2,11 @@ const express = require("express");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.render("landing");
+  const data = {
+    greeting: "Hello Welcome to my portfolio site!",
+  };
+
+  res.render("landing", data);
 });
 
 module.exports = router;
