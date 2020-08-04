@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   const data = {
-    image_profile: 'https://www.google.com/search?q=amazon+owner&safe=strict&sxsrf=ALeKk00JHjuZ_ZeviQi9ZVI5rOWyOA7o_Q:1596562739392&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiytMXXi4LrAhWa73MBHabHDtwQ_AUoAXoECA8QAw&biw=1920&bih=937#imgrc=b3XGJTGi6WRwlM',
+    image_profile: 'https://www.google.com/search?q=google+owner&tbm=isch&ved=2ahUKEwiNha_bi4LrAhVx1nMBHVy7D5cQ2-cCegQIABAA&oq=google+owner&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BggAEAcQHlCU_RRYqIYVYPqMFWgAcAB4AIABsQKIAYUJkgEHMC40LjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=O50pX837GPGsz7sP3Pa-uAk&bih=937&biw=1920&safe=strict#imgrc=g5-P76h3rO8J6M',
     greeting: "Hello Welcome to my portfolio site!",
     introduction: "I am web developer from Kandy",
     languages: [
