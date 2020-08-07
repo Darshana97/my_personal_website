@@ -6,15 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="{{{image_profile}}}" />
-    <h1>{{greeting}}</h1>
-    <p>{{introduction}}</p>
+    <img src="{{{page.image_profile}}}" />
+    <h1>{{page.greeting}}</h1>
+    <p>{{page.introduction}}</p>
 
     <h3>Programming Languages</h3>
     <ol>
-        {{#languages}}
+        {{#page.languages}}
         <li> {{name}}, {{years}} years of experience</li>
-        {{/languages}}
+        {{/page.languages}}
     </ol>
 
     {{>form}}
